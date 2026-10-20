@@ -1,0 +1,166 @@
+{
+  "updatedAt": "2026-10-18",
+  "identity": {
+    "appName": "Carbu France",
+    "editorName": "[À COMPLÉTER : prénom et nom de l'éditeur]",
+    "editorStatus": "[À COMPLÉTER : personne physique à titre non professionnel, ou micro-entrepreneur (SIRET)]",
+    "editorAddress": "[À COMPLÉTER : adresse postale]",
+    "contactEmail": "[À COMPLÉTER : adresse e-mail de contact]",
+    "publicationDirector": "[À COMPLÉTER : nom du directeur de la publication]",
+    "hostName": "[À COMPLÉTER : nom de l'hébergeur du serveur]",
+    "hostAddress": "[À COMPLÉTER : adresse de l'hébergeur]",
+    "hostPhone": "[À COMPLÉTER : téléphone de l'hébergeur]"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "Cette politique explique quelles données {{appName}} utilise, pourquoi, combien de temps elles sont gardées et comment exercer vos droits. L'application n'a ni compte, ni publicité, ni outil de mesure d'audience.",
+    "sections": [
+      {
+        "title": "Qui est responsable",
+        "body": [
+          "Le responsable du traitement est l'éditeur de l'application : {{editorName}}, {{editorAddress}}.",
+          "Pour toute question ou demande : {{contactEmail}}."
+        ]
+      },
+      {
+        "title": "Ce qui reste sur votre téléphone",
+        "body": [
+          "Vos favoris, vos réglages (capacité du réservoir, masquage des prix anciens), les dernières recherches (pour les afficher hors connexion) et un identifiant aléatoire propre à votre installation sont enregistrés sur votre appareil. Ils sont nécessaires au fonctionnement de l'application et ne sont pas utilisés à d'autres fins.",
+          "Quand vous ouvrez l'onglet Favoris, la liste des identifiants de vos stations favorites est envoyée au serveur pour retrouver leurs prix."
+        ]
+      },
+      {
+        "title": "Ce qui est envoyé au serveur",
+        "list": [
+          "Recherche de stations : votre position arrondie à environ 100 m, le carburant choisi et la zone de la carte affichée (un rectangle dont les bords sont arrondis). Base légale : exécution du service que vous demandez, avec votre autorisation de localisation.",
+          "Recherche d'adresse : le texte que vous tapez, transmis à la Géoplateforme de l'IGN par notre serveur (votre adresse IP n'est pas communiquée à l'IGN).",
+          "Itinéraire : votre position arrondie et la station ou la destination choisie, transmises par notre serveur au service OpenRouteService (HeiGIT, Allemagne) ou, s'il ne répond pas, au serveur de démonstration public du projet OSRM.",
+          "Alertes de prix : l'identifiant aléatoire de votre installation, la station, le carburant et le seuil. Base légale : exécution du service que vous demandez."
+        ]
+      },
+      {
+        "title": "Notifications",
+        "body": [
+          "Si vous autorisez les notifications, le jeton de notification de votre téléphone est enregistré avec vos alertes. Il est transmis au service de notification d'Expo (États-Unis) avec le texte de l'alerte (adresse de la station et prix) pour être acheminé par Apple ou Google. Base légale : votre consentement, que vous pouvez retirer à tout moment dans les réglages du téléphone ou en supprimant vos données.",
+          "Sans notifications, les alertes restent visibles dans l'application."
+        ]
+      },
+      {
+        "title": "Ce qui n'est jamais conservé",
+        "body": [
+          "Votre position, vos recherches, vos adresses tapées et vos favoris ne sont pas conservés par le serveur. Les journaux du serveur contiennent la méthode et le chemin des requêtes, jamais leurs paramètres."
+        ]
+      },
+      {
+        "title": "Durées de conservation",
+        "list": [
+          "Alertes et jeton de notification : tant que l'appareil est actif ; un appareil qui n'a pas ouvert l'application depuis 180 jours est supprimé avec ses alertes.",
+          "Historique des prix : 400 jours. Ce sont des données publiques sur les stations, sans donnée personnelle.",
+          "Itinéraires et recherches d'adresse : quelques minutes en mémoire, sans lien avec votre identité."
+        ]
+      },
+      {
+        "title": "Destinataires",
+        "list": [
+          "Hébergeur du serveur : {{hostName}}.",
+          "Géoplateforme (IGN, France) : recherche d'adresse.",
+          "OpenRouteService / HeiGIT (Allemagne) : calcul d'itinéraire.",
+          "Serveur de démonstration public du projet OSRM : calcul d'itinéraire de secours, uniquement quand OpenRouteService ne répond pas.",
+          "Expo (États-Unis), puis Apple ou Google : acheminement des notifications, uniquement si vous les activez.",
+          "Apple Plans ou Google Maps : affichage des cartes, selon leurs propres conditions."
+        ],
+        "body": [
+          "Pour fournir le service, vos données peuvent être traitées par les prestataires suivants, uniquement dans les cas décrits plus haut :"
+        ]
+      },
+      {
+        "title": "Transferts hors de l'Union européenne",
+        "body": [
+          "Seul Expo (États-Unis) est situé hors de l'Union européenne, et seulement si vous activez les notifications. Ce transfert repose sur les garanties prévues par ce prestataire (voir sa politique de confidentialité). Aucune donnée n'est vendue ni utilisée pour de la publicité."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "body": [
+          "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation ou l'opposition au traitement, ainsi que la portabilité, en écrivant à {{contactEmail}}.",
+          "Le bouton « Supprimer mes données » des réglages efface immédiatement du serveur votre appareil, vos alertes et votre jeton de notification, et vide les données locales de l'application.",
+          "Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la CNIL (www.cnil.fr)."
+        ]
+      },
+      {
+        "title": "Refuser la localisation ou les notifications",
+        "body": [
+          "Sans localisation, la recherche se fait autour de Paris ou autour de l'adresse que vous saisissez. Sans notifications, les alertes s'affichent seulement dans l'application."
+        ]
+      },
+      {
+        "title": "Sécurité",
+        "body": [
+          "Les échanges se font en HTTPS. Les positions sont arrondies avant envoi, les accès sont limités en débit, et les jetons et identifiants ne sont ni affichés ni journalisés."
+        ]
+      },
+      {
+        "title": "Publicité et traceurs",
+        "body": [
+          "L'application ne contient aucune publicité, aucun traceur ni outil de mesure d'audience. Si cela change, cette politique sera mise à jour et votre consentement sera demandé avant tout dépôt ou lecture d'identifiant."
+        ]
+      },
+      {
+        "title": "Modifications",
+        "body": [
+          "Cette politique est datée du {{updatedAt}}. Toute modification importante sera signalée dans l'application."
+        ]
+      }
+    ]
+  },
+  "legalNotice": {
+    "title": "Mentions légales",
+    "intro": "Informations légales relatives à l'application {{appName}}.",
+    "sections": [
+      {
+        "title": "Éditeur",
+        "body": [
+          "{{editorName}}",
+          "Statut : {{editorStatus}}",
+          "Adresse : {{editorAddress}}",
+          "Contact : {{contactEmail}}",
+          "Directeur de la publication : {{publicationDirector}}"
+        ]
+      },
+      {
+        "title": "Hébergeur",
+        "body": ["{{hostName}}", "Adresse : {{hostAddress}}", "Téléphone : {{hostPhone}}"]
+      },
+      {
+        "title": "Données affichées",
+        "body": [
+          "Les prix et informations sur les stations proviennent des données ouvertes du Ministère de l'Économie et des Finances (flux « Prix des carburants en France »), réutilisées sous Licence Ouverte 2.0. Les adresses sont fournies par la Géoplateforme (IGN). Les itinéraires sont calculés par © openrouteservice.org by HeiGIT ou, en secours, par le serveur de démonstration du projet OSRM, avec des données © les contributeurs d'OpenStreetMap. Les enseignes des stations (E.Leclerc, TotalEnergies, etc.) proviennent aussi d'OpenStreetMap (© les contributeurs d'OpenStreetMap, licence ODbL) ; notre serveur les télécharge chaque semaine, sans aucune donnée de l'utilisateur, et elles peuvent manquer ou être inexactes."
+        ]
+      },
+      {
+        "title": "Exactitude des informations",
+        "body": [
+          "Les prix sont déclarés par les stations et peuvent être en retard ou inexacts ; leur date de mise à jour est affichée. Les horaires, ruptures et itinéraires sont fournis à titre indicatif. L'éditeur ne garantit pas l'exactitude de ces informations et ne peut être tenu responsable d'une décision prise sur leur base. Vérifiez le prix à la pompe."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "body": [
+          "La marque, le nom, le logo, le code et la conception de l'application sont la propriété de l'éditeur, sauf mention contraire. Les données ouvertes restent soumises à leur licence d'origine."
+        ]
+      },
+      {
+        "title": "Données personnelles",
+        "body": [
+          "Voir la politique de confidentialité accessible dans les réglages de l'application."
+        ]
+      },
+      {
+        "title": "Droit applicable",
+        "body": [
+          "Le droit français s'applique. En cas de litige, les tribunaux français sont compétents."
+        ]
+      }
+    ]
+  }
+}

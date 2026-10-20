@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+backend/data/*.db
+backend/data/*.db-*
+.expo/
+
+coverage/
+
+# Local assistant and tooling files, kept out of the repository
+CLAUDE.md
+AGENTS.md
+.claude/
+.agents/
+skills-lock.json
+docs/07-brief-refonte-accueil.md

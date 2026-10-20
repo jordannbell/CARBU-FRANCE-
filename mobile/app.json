@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Carbu France",
+    "slug": "carbu-france",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["ACCESS_COARSE_LOCATION"],
+      "allowBackup": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Carbu France utilise votre position pour trouver les stations les moins chères autour de vous. Elle n'est pas enregistrée."
+        }
+      ],
+      "expo-status-bar",
+      "expo-secure-store"
+    ]
+  }
+}
